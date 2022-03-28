@@ -1,0 +1,120 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+
+body
+{
+    font-size: 100%;
+    background: linear-gradient(243.18deg, #1F224F 0%, #9FD4E3 100%);
+    color: white;
+    font-family: 'Buzz City';
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    gap: 500px;
+}
+
+.header-image
+{
+    height: 70px;
+}
+
+.header-nav
+{
+    display: flex;
+    gap: 40px;
+}
+
+.header-nav-item
+{
+    font-size: 22px;
+}
+
+main
+{
+    border-top: 2px solid #FFFFFF;
+    margin-bottom: 90px;
+}
+
+section
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.main-div-writing
+{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 800px;
+}
+
+h1
+{
+    font-size: 64px;
+}
+
+h2
+{
+    font-size: 24px;
+}
+
+button
+{
+    background-color: #00758D;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-family: 'Buzz City';
+    font-size: 20px;
+}
+
+button:hover
+{
+    background-color: rgba(4, 11, 96, 0.5);
+    transition: 0.3s;
+}
+
+.main-div-image
+{
+    height: 512px;
+}
+
+footer
+{
+    border-top: 2px solid #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+}
+
+.footer-image
+{
+    height: 62px;
+    width: 139px;
+    
+    margin-right: auto;
+}
+
+.footer-p
+{
+    font-family: 'NanumGothic';
+}
