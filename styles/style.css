@@ -44,6 +44,7 @@ main
 {
     border-top: 2px solid #FFFFFF;
     margin-bottom: 90px;
+    min-height: calc(100vh - 310px);
 }
 
 section
@@ -51,7 +52,7 @@ section
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 100px;
 }
 
@@ -59,6 +60,7 @@ section
 {
     display: flex;
     flex-direction: column;
+    margin-right: 200px;
     gap: 32px;
     max-width: 800px;
 }
@@ -99,10 +101,12 @@ button:hover
 
 footer
 {
+    position: relative;
     border-top: 2px solid #FFFFFF;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     padding: 50px;
 }
 
@@ -110,8 +114,10 @@ footer
 {
     height: 62px;
     width: 139px;
-    
-    margin-right: auto;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
 }
 
 .footer-p
